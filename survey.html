@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GALANMH2 HTML Exam - Survey</title>
+</head>
+<body>
+<header>
+    <h1>Welcome to my blog !</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">My Blog</a></li>
+        <li><a href="survey.html">Survey</a></li>
+    </ul>
+</nav>
+<section>
+    <h2>
+        <span>Survey form</span>
+    </h2>
+</section>
+<form>
+
+    <label>Your background: </label>
+    <input type="radio" id="student" name="background" value="student">
+    <label for="student">Student</label>
+    <input type="radio" id="softwareDeveloper" name="background" value="softwareDeveloper">
+    <label for="softwareDeveloper">Software developer</label>
+    <input type="radio" id="other" name="background" value="other">
+    <label for="other">Other</label><br>
+
+    <label for="feel">How do you feel about my blog:</label>
+    <select name="feel" id="feel">
+        <option value="">--Please choose your answer--</option>
+        <option value="great">great</option>
+        <option value="good">good</option>
+        <option value="neutral">neutral</option>
+        <option value="bad">bad</option>
+        <option value="worst">worst</option>
+    </select><br>
+
+    <label>The topics that you want me to share: </label>
+    <input type="checkbox" id="git" name="topic" value="git">
+    <label for="git">Git</label>
+    <input type="checkbox" id="css" name="topic" value="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="html" name="topic" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" id="javascript" name="topic" value="javascript">
+    <label for="javascript">JavaScript</label><br>
+
+    <label for="feedback">Your feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="10" cols="30"></textarea><br>
+
+    <label for="id">Your blog id:</label>
+    <input type="text" id="id"><br><br>
+
+    <button type="submit" value="Submit">Submit</button>
+</form>
+<footer>
+    <p>&copy; 2022 Thoughtworks</p>
+</footer>
+</body>
+</html>
